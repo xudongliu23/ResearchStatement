@@ -217,7 +217,7 @@ we can collapse the full tree to its \textit{compact} version in \figref{pt_vac_
 Compactness of preference models is
 crucial in studying problems in preference learning and reasoning.
 
-I introduced the preference formalism of \textit{partial lexicographic preference trees},
+We introduced the preference formalism of \textit{partial lexicographic preference trees},
 or PLP-trees \cite{LiuT:Learn_PLPTrees}, where nodes in the tree are labeled not by a formula 
 but by an attribute and a total ordering of the values of the attribute.
 To illustrate PLP-trees, let us consider again preferences over vacations.
@@ -229,7 +229,7 @@ Like the above P-tree, this full PLP-tree induces a total preorder of four
 clusters of equivalent alternatives as the box-labeled leaves, and it is collapsed to a
 much more compact one in \figref{plpt-col}, where 
 preferences on all attributes are \textit{unconditional}.
-I have shown that PLP-trees are special cases of 
+We have shown that PLP-trees are special cases of 
 P-trees but more general than the restrictive LP-trees.
 Studying learning and reasoning problems for PLP-trees will contribute
 to the most general setting of P-trees.
@@ -268,15 +268,15 @@ of these problems and, in each case where the problem
 is in the class P, proposed a polynomial time algorithm.
 
 Continuing this research direction,
-I am working on generalization of my results on learning PLP-trees to the case of P-trees.
-I am also designing and implementing algorithms to learn, from both synthetic and real-world datasets, preferences
+We are working on generalization of our results on learning PLP-trees to the case of P-trees.
+We are also designing and implementing algorithms to learn, from both synthetic and real-world datasets, preferences
 described in formalisms
 of LP-trees, PLP-trees and P-trees for both passive learning and active learning.
-To facilitate the preference learning process, I am developing datasets of examples from existing
+To facilitate the preference learning process, we are developing datasets of examples from existing
 learning datasets from sources such as the Library for Preferences (\url{http://www.preflib.org/}),
 the Preference Learning Site (\url{http://www.preference-learning.org/}), 
 and the UCI Machine Learning Repository (\url{http://archive.ics.uci.edu/ml/}).
-To evaluate our own models, I plan to
+To evaluate our own models, we plan to
 apply machine learning methods to obtain preferences from these developed datasets.
 
 \smallskip \noindent \textbf{Preference Approximation \ }
@@ -285,7 +285,7 @@ However, learning can provide a way to circumvent the difficulty of high computa
 of reasoning tasks, such as \textit{dominance testing}.
 Compared to the formalism of CP-nets, P-trees are more intuitive
 for representing preferences over combinatorial domains, and are easier to reason with.
-Thus, I am studying the hidden relations between the two systems, searching for 
+Thus, we are studying the hidden relations between the two systems, searching for 
 algorithms to approximate
 CP-nets using P-trees learned from examples consistent with the CP-net.
 This might open a way to more effective reasoning with hard preference languages.
@@ -312,17 +312,17 @@ preference on the set of ``roles" that make up the coalition, and
 preference on their own role within the coalition\cite{Spradling}. 
 We then defined and studied several stability
 notions and optimization problems for this model.
-Applying theories into practical problem solving, I designed and developed software modules
+Applying theories into practical problem solving, we designed and developed software modules
 for representing and reasoning about user constraints and preferences in a trip planning
 setting.
 
 \smallskip \noindent \textbf{Preference misrepresentation  \ }
-I am studying problems related to vulnerability of collective decisions under misrepresentation of preferences
+We are studying problems related to vulnerability of collective decisions under misrepresentation of preferences
 specified over combinatorial domains.
 Take the \textit{coalitional manipulation problem} as an example.
 This problem asks to decide if a small coalition set of manipulative
 voters can make some candidate a winner.
-I will examine other positional scoring rules, as well as
+We will examine other positional scoring rules, as well as
 some comparison-based (e.g., the Copeland, Simpson and Maximin rules) and 
 distance-based voting (e.g., the Kemeny and Dodgson rules) systems, for LP-trees,
 and extend these results to elections over complicated domains to more general cases.
